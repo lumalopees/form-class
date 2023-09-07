@@ -6,40 +6,97 @@
   <title>Forms</title>
 </head>
 <body>
-  
-  <!-- TODO: DADOS PESSOAIS -->
+  <form>
+
   <fieldset id="dados-pessoais">
     <legend>Dados Pessoais</legend>
 
     <label for="firstName">
       <p>Nome</p>
-      <input type="text">
+      <input type="text" id="firstName">
     </label>
 
     <label for="lastName">
       <p>Sobrenome</p>
-      <input type="text">
+      <input type="text" id="lastName">
     </label>
 
     <label for="email">
       <p>Email</p>
-      <input type="text">
+      <input type="text" id="email">
     </label>
 
     <label for="bornDate">
       <p>Data de nascimento</p>
-      <input type="date">
+      <input type="date" id="bornDate">
     </label>
 
   </fieldset>
 
   <!-- TODO: HABILIDADES -->
 
+  <fieldset>
+    <legend>Habilidades</legend>
+
+    <p>Selecione suas Habilidades</p>
+
+    <section id="#hardskilss">
+
+      <label for="git">
+        <input type="checkbox" name="git" id="git">
+        <p>Git</p>
+      </label>
+
+      <label for="html">
+        <input type="checkbox" name="html" id="html">
+        <p>HTML</p>
+      </label>
+
+      <label for="javascript">
+        <input type="checkbox" name="javascript" id="javascript">
+        <p>JavaScript</p>
+      </label>
+
+      <label for="CSS">
+        <input type="checkbox" name="CSS" id="CSS">
+        <p>CSS</p>
+      </label>
+
+    </section>
+
+    <section id="#softskills">
+
+      <label for="comunicacao">
+        <input type="checkbox" name="comunicacao" id="comunicacao">
+        <p>Comunicação</p>
+      </label>
+
+      <label for="lideranca">
+        <input type="checkbox" name="lideranca" id="lideranca">
+        <p>Liderança</p>
+      </label>
+
+      <label for="empatia">
+        <input type="checkbox" name="empatia" id="empatia">
+        <p>Empatia</p>
+      </label>
+
+      <label for="colaboracao">
+        <input type="checkbox" name="colaboracao" id="colaboracao">
+        <p>Colaboração</p>
+      </label>
+
+    </section>
+
+  </fieldset>
+
   <!-- TODO: SOBRE -->
 
   <!-- TODO: FEEDBACK  -->
 
   <!-- TODO: AGREEMENT -->
+
+</form>
 
   <script src="scrip.js"></script>
 </body>
