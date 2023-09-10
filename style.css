@@ -51,5 +51,30 @@ legend {
 #habilidades label {
   display: flex;
   gap: 4px;
-  margin-bottom: 4px;
+}
+#habilidades  label:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+/* sobre  */
+
+textarea {
+  width: 100%;
+  resize: none;
+}
+
+#sobre > p {
+  margin-bottom: 8px ;
+}
+
+#sobre div {
+  position: relative;
+}
+
+#sobre > span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  transform: translate(-40%, -50%);
 }
