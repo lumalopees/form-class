@@ -5,11 +5,17 @@
 
 body {
   font-family: 'Ubuntu Mono', monospace;
+  background-image: url(/pexels-unknown-user-1646753.jpg);
+  background-size: cover;
+  height: 100vh;
 }
 
 form {
   width: 600px;
   margin: 0 auto;
+  padding: 32px;
+  border-radius: 16px;
+  background-color: lightgray;
 }
 
 fieldset {
@@ -99,4 +105,21 @@ textarea {
 
 form > label {
   display: flex;
+  gap: 32px;
+}
+
+form > div {
+  margin-bottom: 32px;
+}
+
+#button {
+  width: 100%;
+  margin-bottom: 32px;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  font-weight: 700;
 }
