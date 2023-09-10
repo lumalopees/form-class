@@ -14,12 +14,29 @@ form {
 
 fieldset {
   padding: 16px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  margin-bottom: 16px;
 }
 
 legend {
   padding: 0 8px;
 }
 
+/* dados pessoais */
+
 #dados-pessoais {
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+#dados-pessoais input {
+  width: 100%;
+}
+
+/* habilidades */
+
+#habilidades label {
+  display: flex;
 }
