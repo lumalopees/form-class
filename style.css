@@ -78,3 +78,25 @@ textarea {
 
   transform: translate(-40%, -50%);
 }
+
+/* feedback */
+
+#feedback > p {
+  margin-bottom: 8px;
+}
+
+#feedback label {
+  display: flex;
+  gap: 3px ;
+}
+
+#feedback > div {
+  display: flex;
+  gap: 32px;
+}
+
+/* termos  */
+
+form > label {
+  display: flex;
+}
