@@ -20,6 +20,7 @@ form {
   padding: 32px;
   border-radius: 16px;
   background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.3);
 }
 
 input, textarea {
@@ -69,6 +70,7 @@ legend {
   display: flex;
   gap: 4px;
 }
+
 #habilidades  label:not(:last-child) {
   margin-bottom: 8px;
 }
