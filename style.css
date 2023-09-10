@@ -136,7 +136,3 @@ form > div {
   color: white;
   font-weight: 700;
 }
-
-#button:disabled {
-  opacity: 50%;
-}
