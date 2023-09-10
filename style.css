@@ -37,6 +37,19 @@ legend {
 
 /* habilidades */
 
+#habilidades {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+
+#habilidades > p {
+  grid-column: 1 / -1;
+  margin-bottom: 8px;
+}
+
 #habilidades label {
   display: flex;
+  gap: 4px;
+  margin-bottom: 4px;
 }
