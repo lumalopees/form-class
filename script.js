@@ -11,6 +11,8 @@ function sendInfo() {
     //   getForms.removeChild(getForms.firstChild)
     // }
     getForms.innerHTML = '';
+    getForms.style.textAlign = 'center'
+    getForms.style.fontSize = '30px'
     getForms.innerText = 'Formulário enviado com sucesso!'
   })
 }
