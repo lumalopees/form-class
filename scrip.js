@@ -5,5 +5,11 @@ getBtn.disable = true;
 getBtn.style.opacity = '50%' 
 
 getChecked.addEventListener('click', () => {
-  alert('oi')
+  if (getBtn.disable === true) {
+    getBtn.disable = false;
+    getBtn.style.opacity = '100%' 
+  } else {
+    getBtn.disable = true;
+    getBtn.style.opacity = '50%' 
+  }
 })
